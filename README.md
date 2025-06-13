@@ -1,4 +1,4 @@
-# ID Card Rectification
+# Card Rectification
 A Python-based tool to automatically detect, crop, and rectify (deskew) ID cards from images, even when they are captured at an angle or with perspective distortion. Supports transparent background processing using rembg and OpenCV.
 
 ## 🚀 Features
@@ -10,6 +10,7 @@ A Python-based tool to automatically detect, crop, and rectify (deskew) ID cards
 
 ## ⚙️ Installation
 pip install -r requirements.txt
+
 python rectify.py <input_file_path> <filename>
 
 **The output will be stored in a folder named cropped.
