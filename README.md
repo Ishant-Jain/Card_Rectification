@@ -11,7 +11,7 @@ A Python-based tool to automatically detect, crop, and rectify (deskew) ID cards
 ## ⚙️ Installation
 pip install -r requirements.txt
 
-python rectify.py <input_file_path> <filename>
+python rectify.py input_file_path filename
 
 **The output will be stored in a folder named cropped.
 
